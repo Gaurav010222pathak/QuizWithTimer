@@ -143,7 +143,7 @@ function finalFinish(){
 		item.style.margin = "5px";
 		// var cAns = questions[i].correctAns;
 		var str = ARRanswers[i];
-		var final = str.fontcolor("green");
+		var final = str.fontcolor("lightgreen");
 		item.innerHTML = questions[i].ques + " : " + final ;
 		correctans.appendChild(item);
 	}
